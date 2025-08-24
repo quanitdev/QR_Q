@@ -1,0 +1,23 @@
+{
+  "name": "qr_q",
+  "version": "1.0.0",
+  "description": "Generate QR codes pointing to GitHub Pages (?code=...)",
+  "private": true,
+  "main": "make-qr.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quanitdev/QR_Q.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quanitdev/QR_Q/issues"
+  },
+  "homepage": "https://quanitdev.github.io/QR_Q/",
+  "scripts": {
+    "gen:qr": "node make-qr.js",
+    "gen:qr:hnoss": "node make-qr.js HNOSS-2025"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
